@@ -118,6 +118,7 @@ h6{
 }
 p{
 	line-height:24px;
+	color: #ffffff;
 	margin:0;
 }
 
@@ -189,7 +190,8 @@ p{
 	}
 	
 
-	
+/* Social Media Ribbon*/
+
 
 /* Top_content
 ---------------------------------*/
@@ -201,12 +203,12 @@ p{
 	}
 	
 .top_cont_inner{
-	background:url(../img/white_pad.png) no-repeat right bottom;
+	/*background:url(../img/team_BG_2.jpg) no-repeat right bottom;*/
 	}
 	
 .top_content{
 	position:relative;
-	padding-top: 50px;
+	padding-top: 0px;
 	}
 	
 .white_pad{
@@ -222,7 +224,7 @@ p{
 	}
 	
 .top_left_cont{
-	padding:65px 0;
+	padding:45px 0;
 	}
 	
 .top_left_cont h3{
@@ -251,6 +253,10 @@ p{
 	line-height: 26px;
 	font-family:'Lato';
 	}
+	
+.top_right_cont{
+	padding: 45px;
+}
 
 a.learn_more2{
 	font-family: 'Dosis';
@@ -275,6 +281,29 @@ a.learn_more2:hover{
 	background:#000;
 	}
 
+a.learn_more3{
+	font-family: 'Dosis';
+	display:block;
+	font-size:16px;
+	color:#ffffff;
+	background:#FC3;
+	width:178px;
+	height:46px;
+	line-height:46px;
+	border-radius:3px;
+	text-align:center;
+	font-family:''Dosis'';
+	text-transform:uppercase;
+	font-weight: 600;
+	transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	padding-top: 0px;
+	}
+a.learn_more3:hover{
+	color:#FC3;
+	background:#000;
+	}
 	
 
 
@@ -287,7 +316,8 @@ a.learn_more2:hover{
 ---------------------------------*/
 
 #service{ 
-	padding:83px 0px;
+	background:url(../img/scuf.jpg);
+	padding:23px 0px;
 	}
 
 .service_area{
@@ -396,7 +426,6 @@ a.learn_more2:hover{
 	text-align:center;
 }
 .service-list-col1 i{
-	display:;
 	color:#366b5f;
 	font-family: 'linecons';
 	font-size: 19px;
@@ -450,7 +479,7 @@ a.contact_btn:hover{
 ---------------------------------*/
 
 
-#Portfolio{ padding:100px 0px; background-color:#000;}
+#Portfolio{ padding:10px 0px; background-color:#000;}
 
 .Portfolio-nav{
 	padding:0;
@@ -540,8 +569,8 @@ img {
 
 
 
-#client_outer{ background-image:url(../img/dark1.jpg);
-	padding:0px 0px;
+#client_outer{ background-image:url(../img/client_BG_3.jpg);
+	padding:25px 0px;
 	}
 	
 .client_area{
@@ -661,7 +690,7 @@ img {
 .c-logo-part{
 	background: url(../img/poligan_bg.jpg) no-repeat left top;
 	padding: 60px 0;
-	margin-top: 60px;
+	margin-top: 0px;
     filter: alpha(opacity=60);
 }
 .c-logo-part ul{
@@ -678,7 +707,7 @@ img {
 	display:inline-block;
 	margin: 0 20px;
 }
-.main-section.team{background-image:url(../img/web1.jpg);
+.main-section.team{background-image:url(../img/team_BG_6.jpg);
 	padding:85px 0;
 }
 .main-section.team h6{
@@ -689,13 +718,15 @@ img {
 /* Team
 ---------------------------------*/
 .team-leader-block{
-	max-width:993px;
+	max-width:1093px;
 	margin:0 auto;
 }
 .team-leader-box{
-	width:21.66%;
-	margin-right: 3.82979%;
-	height: 490px;
+	padding-top: 20px;
+	width:23.66%;
+	margin-right: 2.82979%;
+	margin-left: 5.22979%;
+	height: 520px;
 	overflow: hidden;
 	text-align: center;
 	float: left;
@@ -704,7 +735,7 @@ img {
 	margin-bottom:24px;
 	display:block;
 }
-.team-leader-box:nth-of-type(4n+0){ margin:0;}
+.team-leader-box:nth-of-type(3n+0){ margin:0;}
 .team-leader{
 	width:auto;
 	height:auto;
@@ -868,10 +899,11 @@ img {
 ---------------------------------*/
 .main-section.contact{
 	padding:90px 0 100px;
+	margin-top: 50px;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	background:url(../img/web2.jpg) left 190px no-repeat;
 }
 
 
@@ -1692,5 +1724,14 @@ img {
 		display:inherit;
 		padding:0;
 	}
+	#overlay {
+    background-image:url(/media/img/overlay/transparent.png);
+    color:#efefef;
+    height:450px;
+  	}
+	  div.contentWrap {
+		height:441px;
+		overflow-y:auto;
+	  }
 
 
