@@ -108,6 +108,16 @@ h3{
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 }
+h4{
+	font-size:24px;
+	font-family: 'Dosis';
+	font-weight:600;
+	color:#fc4;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	text-transform:uppercase;
+	font-stretch:expanded;
+}
 h6{
 	font-size:16px;
 	color:#888888;
@@ -118,6 +128,9 @@ h6{
 }
 p{
 	line-height:24px;
+	font-size:16px;
+	font-stretch:expanded;
+	font-weight:500;
 	color: #ffffff;
 	margin:0;
 }
@@ -138,6 +151,10 @@ p{
 	float:left;
 	}
 	
+.logo:hover{
+	color:#ffffff;
+}
+
 .res-nav_click{ display:none;}
 	
 
@@ -176,7 +193,7 @@ p{
 .nav ul li a{
 	display:block;
 	font-size:14px;
-	color:#ffffff;
+	color:#FC3;
 	font-family:'Dosis';
 	text-decoration:none;
 	text-transform:uppercase;
@@ -186,7 +203,7 @@ p{
 	-webkit-transition:all 0.2s ease-in-out;	
 	}
 .nav ul li a:hover{
-	color:#FC3;
+	color:#ffffff;
 	}
 	
 
@@ -269,7 +286,7 @@ a.learn_more2{
 	line-height:46px;
 	border-radius:3px;
 	text-align:center;
-	font-family:''Dosis'';
+	font-family:'Dosis';
 	text-transform:uppercase;
 	font-weight: 600;
 	transition:all 0.2s ease-in-out;
@@ -292,7 +309,7 @@ a.learn_more3{
 	line-height:46px;
 	border-radius:3px;
 	text-align:center;
-	font-family:''Dosis'';
+	font-family:'Dosis';
 	text-transform:uppercase;
 	font-weight: 600;
 	transition:all 0.2s ease-in-out;
@@ -1285,7 +1302,7 @@ img {
 	}
 	.portfolio-item .portfolio-image img {
 		width: 100%;
-		height: auto;
+		height: 300px;
 	}
 
 	.portfolio-item:hover .project-overlay {
