@@ -226,6 +226,7 @@ p{
 .top_content{
 	position:relative;
 	padding-top: 0px;
+	z-index: 2;
 	}
 	
 .white_pad{
@@ -303,9 +304,9 @@ a.learn_more3{
 	display:block;
 	font-size:16px;
 	color:#ffffff;
-	background:#FC3;
-	width:178px;
-	height:46px;
+	background:#ace600;
+	width:138px;
+	height:48px;
 	line-height:46px;
 	border-radius:3px;
 	text-align:center;
@@ -313,8 +314,8 @@ a.learn_more3{
 	text-transform:uppercase;
 	font-weight: 600;
 	transition:all 0.2s ease-in-out;
-	-moz-transition:all 0.2s ease-in-out;
-	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
 	padding-top: 0px;
 	}
 a.learn_more3:hover{
@@ -725,7 +726,7 @@ img {
 	margin: 0 20px;
 }
 .main-section.team{background-image:url(../img/team_BG_6.jpg);
-	padding:85px 0;
+	padding:0px 0;
 }
 .main-section.team h6{
 	margin-bottom:40px;
@@ -915,12 +916,12 @@ img {
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
-	margin-top: 50px;
+	padding:10px 0 10px;
+	margin-top: 10px;
 }
 
 .main-section.contact{
-	background:url(../img/web2.jpg) left 190px no-repeat;
+	
 }
 
 
@@ -1116,7 +1117,7 @@ img {
 /* Footer
 ---------------------------------*/
 
-.footer_section{ background:url(../img/pattern_bg.jpg) repeat left top;
+.footer_section{ background:url(../img/contactUs_BG1.jpg);
 }
 
 .footer_bottom{
@@ -1197,7 +1198,10 @@ img {
 
 	
 /* Portfolio */	
-	
+
+	.portfolio-background {
+		background:url(../img/125648.png);
+	}
 	.container.portfolio-title {
 		padding-bottom:0px;
 	}	
@@ -1752,3 +1756,47 @@ img {
 	  }
 
 
+/*!
+Styles for full screen background video demo
+*/
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: auto;
+}

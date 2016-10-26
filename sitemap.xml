@@ -10,4 +10,32 @@
   <loc>http://www.pyplyn.co/</loc>
   <changefreq>weekly</changefreq>
 </url>
+<url>
+  <loc>http://www.pyplyn.co/client.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.pyplyn.co/contactUs.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.pyplyn.co/index.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.pyplyn.co/portfolio.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.pyplyn.co/services.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.pyplyn.co/team.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.pyplyn.co/promotions.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
 </urlset>
